@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IronPulse Fitness | Gym, Personal Training &amp; Group Classes</title>
+  <meta name="description" content="IronPulse Fitness – a modern gym offering strength training, HIIT, yoga, and personal coaching. Book your free trial session today.">
+  <meta name="theme-color" content="#0f1115">
+
+  <!-- Open Graph (update URL/image once the site is live) -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="IronPulse Fitness">
+  <meta property="og:description" content="Strength, conditioning and coaching for every level. Book your free trial.">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23ff5a1f'/%3E%3Cpath d='M7 12v8M10 10v12M22 10v12M25 12v8M10 16h12' stroke='%230f1115' stroke-width='2.5' stroke-linecap='round'/%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+
+  <!-- Local business structured data – replace placeholder values -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ExerciseGym",
+    "name": "IronPulse Fitness",
+    "telephone": "+91-00000-00000",
+    "email": "hello@ironpulse.example",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "123 Placeholder Street",
+      "addressLocality": "Your City",
+      "postalCode": "000000",
+      "addressCountry": "IN"
+    },
+    "openingHours": ["Mo-Fr 05:00-23:00", "Sa 06:00-21:00", "Su 07:00-14:00"]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="#top" class="logo" aria-label="IronPulse Fitness, back to top">
+        <svg class="logo-mark" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+          <rect width="32" height="32" rx="6"/>
+          <path d="M7 12v8M10 10v12M22 10v12M25 12v8M10 16h12"/>
+        </svg>
+        <span>Iron<strong>Pulse</strong></span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="visually-hidden">Menu</span>
+      </button>
+
+      <nav class="primary-nav" id="primary-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#programs">Programs</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="#trainers">Trainers</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="#contact" class="btn btn-primary btn-sm nav-cta">Free Trial</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-inner">
+        <p class="eyebrow">Open 7 days · Beginner friendly</p>
+        <h1 id="hero-title">Stronger every<br><span class="accent">single week.</span></h1>
+        <p class="hero-lead">Coached strength training, high-energy classes and a community that shows up for you. Your first session is on us.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Book a Free Trial</a>
+          <a href="#pricing" class="btn btn-ghost">View Memberships</a>
+        </div>
+
+        <ul class="stats" aria-label="Gym highlights">
+          <li><strong>1,200+</strong><span>Active members</span></li>
+          <li><strong>15</strong><span>Certified coaches</span></li>
+          <li><strong>40+</strong><span>Classes per week</span></li>
+          <li><strong>10,000</strong><span>sq ft of training space</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ PROGRAMS ============ -->
+    <section class="section" id="programs" aria-labelledby="programs-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">What we offer</p>
+          <h2 id="programs-title">Programs built around your goals</h2>
+          <p>Whether you want to lose fat, build muscle or simply move better, there's a path for you.</p>
+        </header>
+
+        <ul class="card-grid programs">
+          <li class="card">
+            <svg class="card-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 8v8M3 10v4M18 8v8M21 10v4M6 12h12"/></svg>
+            <h3>Strength Training</h3>
+            <p>Barbell, dumbbell and machine work with progressive plans that actually get you stronger.</p>
+          </li>
+          <li class="card">
+            <svg class="card-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M13 2 4 14h7l-1 8 9-12h-7l1-8z"/></svg>
+            <h3>HIIT &amp; Conditioning</h3>
+            <p>Fast-paced 45-minute sessions that torch calories and build real-world fitness.</p>
+          </li>
+          <li class="card">
+            <svg class="card-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="5" r="2"/><path d="M12 7v6M6 10l6 3 6-3M9 21l3-8 3 8"/></svg>
+            <h3>Yoga &amp; Mobility</h3>
+            <p>Improve flexibility, recover faster and reduce stress with guided flow sessions.</p>
+          </li>
+          <li class="card">
+            <svg class="card-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>
+            <h3>Personal Training</h3>
+            <p>One-on-one coaching with a custom plan, form checks and weekly accountability.</p>
+          </li>
+          <li class="card">
+            <svg class="card-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 21s-7-4.5-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 11c0 5.5-7 10-7 10z"/></svg>
+            <h3>Cardio Zone</h3>
+            <p>Treadmills, rowers, bikes and stair climbers — never wait for a machine.</p>
+          </li>
+          <li class="card">
+            <svg class="card-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 20h16M6 20V10M12 20V4M18 20v-7"/></svg>
+            <h3>Nutrition Coaching</h3>
+            <p>Simple, sustainable eating guidance that supports your training — no crash diets.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section section-alt" id="about" aria-labelledby="about-title">
+      <div class="container split">
+        <div class="about-visual" role="img" aria-label="Placeholder for a photo of the gym floor">
+          <span>Gym photo<br>(replace with real image)</span>
+        </div>
+        <div>
+          <p class="eyebrow">Why IronPulse</p>
+          <h2 id="about-title">More than a gym. A place you'll want to come back to.</h2>
+          <p>Founded in 2018, IronPulse was built for people who want results without the intimidation. Our coaches are on the floor every hour we're open, so help is always a few steps away.</p>
+          <ul class="check-list">
+            <li>Free fitness assessment &amp; onboarding plan</li>
+            <li>Clean, spacious facility with modern equipment</li>
+            <li>Showers, lockers and free parking</li>
+            <li>Progress tracking every 4 weeks</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary">Visit Us</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SCHEDULE ============ -->
+    <section class="section" id="schedule" aria-labelledby="schedule-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Class timetable</p>
+          <h2 id="schedule-title">Weekly schedule</h2>
+          <p>All classes are included in Standard and Elite memberships.</p>
+        </header>
+
+        <div class="tabs">
+          <div class="tab-list" role="tablist" aria-label="Days of the week">
+            <button role="tab" id="tab-mon" aria-controls="panel-mon" aria-selected="true">Mon</button>
+            <button role="tab" id="tab-tue" aria-controls="panel-tue" aria-selected="false" tabindex="-1">Tue</button>
+            <button role="tab" id="tab-wed" aria-controls="panel-wed" aria-selected="false" tabindex="-1">Wed</button>
+            <button role="tab" id="tab-thu" aria-controls="panel-thu" aria-selected="false" tabindex="-1">Thu</button>
+            <button role="tab" id="tab-fri" aria-controls="panel-fri" aria-selected="false" tabindex="-1">Fri</button>
+            <button role="tab" id="tab-sat" aria-controls="panel-sat" aria-selected="false" tabindex="-1">Sat</button>
+          </div>
+
+          <div class="tab-panel" id="panel-mon" role="tabpanel" aria-labelledby="tab-mon" tabindex="0">
+            <ul class="class-list">
+              <li><time>06:00</time><span>HIIT Burn</span><span class="coach">Arjun</span></li>
+              <li><time>08:00</time><span>Strength Foundations</span><span class="coach">Meera</span></li>
+              <li><time>18:00</time><span>Power Lifting</span><span class="coach">Karthik</span></li>
+              <li><time>19:30</time><span>Vinyasa Yoga</span><span class="coach">Priya</span></li>
+            </ul>
+          </div>
+          <div class="tab-panel" id="panel-tue" role="tabpanel" aria-labelledby="tab-tue" tabindex="0" hidden>
+            <ul class="class-list">
+              <li><time>06:00</time><span>Mobility Flow</span><span class="coach">Priya</span></li>
+              <li><time>07:30</time><span>Kettlebell Circuit</span><span class="coach">Arjun</span></li>
+              <li><time>18:30</time><span>HIIT Burn</span><span class="coach">Meera</span></li>
+            </ul>
+          </div>
+          <div class="tab-panel" id="panel-wed" role="tabpanel" aria-labelledby="tab-wed" tabindex="0" hidden>
+            <ul class="class-list">
+              <li><time>06:00</time><span>Strength Foundations</span><span class="coach">Karthik</span></li>
+              <li><time>08:00</time><span>Core &amp; Stretch</span><span class="coach">Priya</span></li>
+              <li><time>18:00</time><span>Boxing Fitness</span><span class="coach">Arjun</span></li>
+              <li><time>19:30</time><span>Power Lifting</span><span class="coach">Karthik</span></li>
+            </ul>
+          </div>
+          <div class="tab-panel" id="panel-thu" role="tabpanel" aria-labelledby="tab-thu" tabindex="0" hidden>
+            <ul class="class-list">
+              <li><time>06:00</time><span>HIIT Burn</span><span class="coach">Meera</span></li>
+              <li><time>07:30</time><span>Vinyasa Yoga</span><span class="coach">Priya</span></li>
+              <li><time>18:30</time><span>Kettlebell Circuit</span><span class="coach">Arjun</span></li>
+            </ul>
+          </div>
+          <div class="tab-panel" id="panel-fri" role="tabpanel" aria-labelledby="tab-fri" tabindex="0" hidden>
+            <ul class="class-list">
+              <li><time>06:00</time><span>Strength Foundations</span><span class="coach">Meera</span></li>
+              <li><time>18:00</time><span>Boxing Fitness</span><span class="coach">Arjun</span></li>
+              <li><time>19:30</time><span>Mobility Flow</span><span class="coach">Priya</span></li>
+            </ul>
+          </div>
+          <div class="tab-panel" id="panel-sat" role="tabpanel" aria-labelledby="tab-sat" tabindex="0" hidden>
+            <ul class="class-list">
+              <li><time>07:00</time><span>Weekend Warrior WOD</span><span class="coach">Karthik</span></li>
+              <li><time>09:00</time><span>Yoga for Recovery</span><span class="coach">Priya</span></li>
+              <li><time>11:00</time><span>Open Gym Q&amp;A</span><span class="coach">All coaches</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TRAINERS ============ -->
+    <section class="section section-alt" id="trainers" aria-labelledby="trainers-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Meet the team</p>
+          <h2 id="trainers-title">Coaches who care about your progress</h2>
+        </header>
+
+        <ul class="card-grid trainers">
+          <li class="card trainer">
+            <div class="avatar" aria-hidden="true">AR</div>
+            <h3>Arjun Rao</h3>
+            <p class="role">Head Coach · HIIT &amp; Boxing</p>
+            <p>10 years coaching, ACE certified. Loves turning beginners into athletes.</p>
+          </li>
+          <li class="card trainer">
+            <div class="avatar" aria-hidden="true">MS</div>
+            <h3>Meera Shah</h3>
+            <p class="role">Strength &amp; Conditioning</p>
+            <p>NSCA-CSCS. Specialises in women's strength and body recomposition.</p>
+          </li>
+          <li class="card trainer">
+            <div class="avatar" aria-hidden="true">KN</div>
+            <h3>Karthik Nair</h3>
+            <p class="role">Powerlifting Coach</p>
+            <p>National-level lifter focused on safe technique and steady PRs.</p>
+          </li>
+          <li class="card trainer">
+            <div class="avatar" aria-hidden="true">PI</div>
+            <h3>Priya Iyer</h3>
+            <p class="role">Yoga &amp; Mobility</p>
+            <p>RYT-500. Helps members move pain-free and recover smarter.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ PRICING ============ -->
+    <section class="section" id="pricing" aria-labelledby="pricing-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Memberships</p>
+          <h2 id="pricing-title">Simple pricing, no hidden fees</h2>
+          <p>No joining fee this month. Cancel anytime with 30 days' notice.</p>
+        </header>
+
+        <ul class="card-grid pricing">
+          <li class="card plan">
+            <h3>Basic</h3>
+            <p class="price"><span class="amount">₹1,499</span><span class="period">/month</span></p>
+            <ul class="check-list">
+              <li>Full gym floor access</li>
+              <li>Cardio zone</li>
+              <li>Locker &amp; shower</li>
+              <li>1 fitness assessment</li>
+            </ul>
+            <a href="#contact" class="btn btn-ghost btn-block" data-plan="Basic">Choose Basic</a>
+          </li>
+          <li class="card plan plan-featured">
+            <p class="badge">Most popular</p>
+            <h3>Standard</h3>
+            <p class="price"><span class="amount">₹2,499</span><span class="period">/month</span></p>
+            <ul class="check-list">
+              <li>Everything in Basic</li>
+              <li>Unlimited group classes</li>
+              <li>Monthly progress check-in</li>
+              <li>Nutrition starter guide</li>
+            </ul>
+            <a href="#contact" class="btn btn-primary btn-block" data-plan="Standard">Choose Standard</a>
+          </li>
+          <li class="card plan">
+            <h3>Elite</h3>
+            <p class="price"><span class="amount">₹4,999</span><span class="period">/month</span></p>
+            <ul class="check-list">
+              <li>Everything in Standard</li>
+              <li>8 personal training sessions</li>
+              <li>Custom nutrition plan</li>
+              <li>Priority class booking</li>
+            </ul>
+            <a href="#contact" class="btn btn-ghost btn-block" data-plan="Elite">Choose Elite</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ TESTIMONIALS ============ -->
+    <section class="section section-alt" aria-labelledby="testimonials-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Member stories</p>
+          <h2 id="testimonials-title">Real people, real results</h2>
+        </header>
+
+        <ul class="card-grid testimonials">
+          <li class="card">
+            <blockquote>
+              <p>"I'd never lifted before. Six months in, I'm deadlifting my bodyweight and I actually look forward to training."</p>
+            </blockquote>
+            <p class="cite">— Sneha K., member since 2023</p>
+          </li>
+          <li class="card">
+            <blockquote>
+              <p>"The coaches remember your name and your goals. Lost 12 kg and gained a lot of confidence."</p>
+            </blockquote>
+            <p class="cite">— Rahul M., member since 2022</p>
+          </li>
+          <li class="card">
+            <blockquote>
+              <p>"Early morning HIIT is the best part of my day. Great energy, spotless facility."</p>
+            </blockquote>
+            <p class="cite">— Divya S., member since 2024</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="section" id="faq" aria-labelledby="faq-title">
+      <div class="container narrow">
+        <header class="section-head">
+          <p class="eyebrow">FAQ</p>
+          <h2 id="faq-title">Questions, answered</h2>
+        </header>
+
+        <div class="faq">
+          <details>
+            <summary>Is the free trial really free?</summary>
+            <p>Yes. Your first visit includes a full session with a coach and access to any class that day. No card required.</p>
+          </details>
+          <details>
+            <summary>I'm a complete beginner. Is that okay?</summary>
+            <p>Absolutely. Most of our members started as beginners. Every new member gets an onboarding plan and technique coaching.</p>
+          </details>
+          <details>
+            <summary>Can I freeze my membership?</summary>
+            <p>You can freeze your membership for up to 60 days per year for travel or medical reasons.</p>
+          </details>
+          <details>
+            <summary>Do you have parking and showers?</summary>
+            <p>Yes — free parking for members, plus clean showers and secure lockers.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section section-alt" id="contact" aria-labelledby="contact-title">
+      <div class="container split contact">
+        <div>
+          <p class="eyebrow">Get started</p>
+          <h2 id="contact-title">Book your free trial</h2>
+          <p>Fill in the form and we'll call you within one working day to schedule your visit.</p>
+
+          <dl class="info-list">
+            <div>
+              <dt>Address</dt>
+              <dd>123 Placeholder Street, Your City 000000<br>
+                <a href="https://www.google.com/maps/search/?api=1&amp;query=123+Placeholder+Street" target="_blank" rel="noopener">Open in Google Maps<span class="visually-hidden"> (opens in a new tab)</span></a>
+              </dd>
+            </div>
+            <div>
+              <dt>Phone</dt>
+              <dd><a href="tel:+910000000000">+91 00000 00000</a></dd>
+            </div>
+            <div>
+              <dt>Email</dt>
+              <dd><a href="mailto:hello@ironpulse.example">hello@ironpulse.example</a></dd>
+            </div>
+            <div>
+              <dt>Hours</dt>
+              <dd>Mon–Fri 5:00–23:00<br>Sat 6:00–21:00 · Sun 7:00–14:00</dd>
+            </div>
+          </dl>
+        </div>
+
+        <form class="card contact-form" id="trial-form" novalidate>
+          <div class="field">
+            <label for="name">Full name <span aria-hidden="true">*</span></label>
+            <input id="name" name="name" type="text" autocomplete="name" required aria-describedby="name-error">
+            <p class="error" id="name-error" aria-live="polite"></p>
+          </div>
+          <div class="field">
+            <label for="phone">Phone <span aria-hidden="true">*</span></label>
+            <input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required pattern="[0-9+\s\-]{8,15}" aria-describedby="phone-error">
+            <p class="error" id="phone-error" aria-live="polite"></p>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" aria-describedby="email-error">
+            <p class="error" id="email-error" aria-live="polite"></p>
+          </div>
+          <div class="field">
+            <label for="plan">Interested in</label>
+            <select id="plan" name="plan">
+              <option value="Not sure">Not sure yet</option>
+              <option value="Basic">Basic membership</option>
+              <option value="Standard">Standard membership</option>
+              <option value="Elite">Elite membership</option>
+              <option value="Personal Training">Personal training only</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="message">Goals or questions</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Request Free Trial</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year">2026</span> IronPulse Fitness. All rights reserved.</p>
+      <ul class="footer-links">
+        <li><a href="#programs">Programs</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#top">Back to top ↑</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
